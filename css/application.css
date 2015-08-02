@@ -1,0 +1,16 @@
+.container { 
+  width: 450px;
+}
+
+.tweet-area {
+  border-radius: 5px;
+  height: 150px;
+}
+
+.tweet-btn {
+  width: 100%;
+}
+
+.tweets li {
+  margin: 1em; 
+}

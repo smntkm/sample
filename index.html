@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/application.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h1 class="center">つぶやいったー</h1>
+        </div>
+      </div>
+        
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" class="tweet-area"></input>
+            </div> 
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <a class="waves-effect waves-light btn-large tweet-btn">つぶやき！</a>
+            </div> 
+          </div>
+        </form>
+      </div> 
+
+      <div class="row">
+        <ul class="collection tweets">
+        </ul>
+      </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+  </body>
+</html>
